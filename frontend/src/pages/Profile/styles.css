@@ -85,3 +85,7 @@
   line-height: 21px;
   font-size: 16px;
 }
+
+.profile-container ul li p.description {
+  white-space: pre-wrap;
+}
