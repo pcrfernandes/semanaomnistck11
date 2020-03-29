@@ -1,0 +1,17 @@
+
+ - criar pasta projeto
+ - criar pasta backend
+ - criar projeto node: npm init -y
+ - npm install express
+ - criar index.js
+ - executar: node index.js
+ - add nodemon no backend somente p/ dev: npm install nodemon -D
+ - criar projeto front: npx create-react-app frontend
+ - criar script de start (package.json):
+   "scripts": {
+     "start": "nodemon index.js" 
+   }
+ - instalar knex (query builer): npm install knex
+ - instalar driver sqlite: bpm install sqlite3
+ - criar estrutura p/ acesso ao BD: npx knex init
+ 
